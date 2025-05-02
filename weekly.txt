@@ -1,0 +1,34 @@
+Week 1-2: Authentication & User Management
+BE Focus: User APIs, JWT setup, role-based permissions
+FE Focus: Login/registration forms, email verification, OTP interfaces
+Dependencies: Backend APIs should be developed first, frontend integrates after
+Week 3-4: Store Setup & Customization
+BE Focus: Domain, file uploads, theme, SEO, page builder APIs
+FE Focus: Store setup UIs, theme selector, page builder interface
+Dependencies: Authentication system from weeks 1-2
+Week 5-6: Product Management
+BE Focus: Product CRUD, categories, variants, modifiers, media APIs
+FE Focus: Product management UI, category trees, variant selectors
+Dependencies: Store setup from weeks 3-4
+Week 7-8: Cart & Checkout
+BE Focus: Cart, checkout, tax, shipping, order APIs
+FE Focus: Cart UI, checkout flow, shipping options, order placement
+Dependencies: Product management from weeks 5-6
+Week 9-10: Payment & Finance
+BE Focus: Payment gateways, refunds, payouts, commission APIs
+FE Focus: Payment UIs, vendor dashboards, commission displays
+Dependencies: Cart & checkout from weeks 7-8
+Week 11-12: Analytics & Dashboard
+BE Focus: Analytics endpoints, reporting, multi-store data
+FE Focus: Dashboard UIs, data visualization, reporting tools
+Dependencies: Data from previous modules
+
+Week 13-14: Point of Sale (POS) System
+BE Focus: Real-time inventory sync, POS transaction APIs, staff authentication, receipt generation
+FE Focus: POS interface, payment processing UI, inventory management, receipt printing
+Dependencies: Product management, payment systems, and inventory from previous phases
+
+Week 15-16: Integration & System Testing
+BE Focus: API optimization, system integration, performance testing, security auditing
+FE Focus: UI/UX polishing, responsive design testing, cross-browser compatibility
+Dependencies: All previous modules completed and functioning individually
