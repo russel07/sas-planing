@@ -4,12 +4,13 @@
 A comprehensive SaaS-based e-commerce platform with multi-tenant capabilities, allowing vendors to set up storefronts with complete management capabilities.
 
 ## Development Team
-- 3 Backend Developers (BE1, BE2, BE3)
-- 2 Frontend Developers (FE1, FE2)
+- 3 Backend Developers (RH, AR, MHR)
+- 2 Frontend Developers (MD, AKR)
 
 ## Weekly Development Schedule
 
-### Week 1-2: Authentication & User Management
+### Week 1-2: Enviroment Set up & Authentication API
+- **Project Environment Set Up** DB design, Plan for RBA, Laravel + Vue
 - **Backend Focus:** User APIs, JWT setup, role-based permissions
 - **Frontend Focus:** Login/registration forms, email verification, OTP interfaces
 
@@ -46,284 +47,257 @@ A comprehensive SaaS-based e-commerce platform with multi-tenant capabilities, a
 ### Authentication & User Management
 
 #### Backend Tasks
-1. **User Registration API - BE1 (16h)**
-   - Create user schema and database models (4h)
-   - Implement registration endpoints with validation (6h)
-   - Add email verification flow (4h)
-   - Unit testing (2h)
+1. **Environment SetUp - AR**
+   - DB Design and migrations
+   - Plan for RBA
+   - Laravel+ Vue Compile 
 
-2. **Login API - BE2 (12h)**
-   - Implement login authentication endpoints (4h)
-   - JWT token generation and handling (4h)
-   - Session management (2h)
-   - Unit testing (2h)
+2. **User Registration API - RH**
+   - Create user schema and database models
+   - Implement registration endpoints with validation
+   - Add email verification flow
 
-3. **Role & Permission System - BE3 (14h)**
-   - Define role-based permission schema (4h)
-   - Implement role middleware (5h)
-   - Add role-based routing logic (3h)
-   - Unit testing (2h)
+3. **Login API - RH**
+   - Implement login authentication endpoints
+   - JWT token generation and handling
+   - Session management
 
-4. **Password Reset API - BE1 (10h)**
-   - Create password reset token flow (4h)
-   - Email delivery integration (3h)
-   - Reset validation and confirmation (2h)
-   - Unit testing (1h)
+4. **Role & Permission System - AR**
+   - Define role-based permission schema
+   - Implement role middleware
+   - Add role-based routing logic
 
-5. **OTP Verification System - BE2 (10h)**
-   - OTP generation logic (3h)
-   - Storage and expiration handling (3h)
-   - Verification endpoints (3h)
-   - Unit testing (1h)
+5. **Password Reset API - MHR**
+   - Create password reset token flow
+   - Email delivery integration
+   - Reset validation and confirmation
+
+6. **OTP Verification System - MHR**
+   - OTP generation logic
+   - Storage and expiration handling
+   - Verification endpoints
 
 #### Frontend Tasks
-1. **Login UI - FE1 (12h)**
-   - Login form with validation (4h)
-   - Error handling and display (2h)
-   - Remember me functionality (2h)
-   - Response to API integration (2h)
-   - Mobile responsiveness (2h)
+1. **Login UI - MD**
+   - Login form with validation
+   - Error handling and display
+   - Remember me functionality
+   - Response to API integration
+   - Mobile responsiveness
 
-2. **Registration UI - FE2 (14h)**
-   - Multi-step registration form (6h)
-   - Field validation and error display (3h)
-   - Role selection interface (2h)
-   - Response to API integration (3h)
+2. **Registration UI - MD**
+   - Multi-step registration form
+   - Field validation and error display
+   - Role selection interface
+   - Response to API integration
 
-3. **Password Reset UI - FE1 (8h)**
-   - Request reset form (2h)
-   - Reset token validation (2h)
-   - New password form with confirmation (2h)
-   - Success/error notifications (2h)
+3. **Password Reset UI - AKR**
+   - Request reset form
+   - Reset token validation
+   - New password form with confirmation
+   - Success/error notifications
 
-4. **Email Verification UI - FE2 (6h)**
-   - Verification page (2h)
-   - Success/failure states (2h)
-   - Resend verification option (2h)
+4. **Email Verification UI - MD**
+   - Verification page
+   - Success/failure states
+   - Resend verification option
 
-5. **OTP UI - FE1 (8h)**
-   - OTP input interface (3h)
-   - Countdown timer and resend option (3h)
-   - Success/failure states (2h)
+5. **OTP UI - FE1**
+   - OTP input interface
+   - Countdown timer and resend option
+   - Success/failure states
 
-6. **Role-Based Redirection - FE2 (6h)**
-   - Role detection logic (2h)
-   - Navigation guards setup (2h)
-   - Dashboard routing based on role (2h)
+6. **Role-Based Redirection - MD**
+   - Role detection logic
+   - Navigation guards setup
+   - Dashboard routing based on role
+7. **Marketing Website Landing Page - AKR**
+8. **Building a Store template(Next Js) - MD**
 
 ### Store Setup & Customization
 
 #### Backend Tasks
-1. **Domain API - BE1 (12h)**
-   - Subdomain management (4h)
-   - Domain verification (4h)
-   - SSL certificate management (2h)
-   - Status endpoints (2h)
+1. **Store Setup - AR**
+   - Store Registration API
+   - Logo/favicon storage configuration
+   - Get Theme list end points
 
-2. **File Upload API - BE2 (10h)**
-   - Logo/favicon storage configuration (3h)
-   - Image processing and optimization (3h)
-   - File retrieval endpoints (2h)
-   - Validation and security (2h)
+2. **Theme API**
+   - Theme schema and storage
+   - Theme selection endpoints
+   - Custom theme settings storage
+   - Theme asset management
 
-3. **Theme API - BE3 (16h)**
-   - Theme schema and storage (4h)
-   - Theme selection endpoints (3h)
-   - Custom theme settings storage (5h)
-   - Theme asset management (4h)
-
-4. **SEO API - BE1 (8h)**
-   - SEO metadata schema (2h)
-   - Store-wide SEO settings (3h)
-   - Page-specific SEO endpoints (3h)
-
-5. **Page Builder API - BE2 (20h)**
-   - Page schema and components (6h)
-   - Layout storage and retrieval (6h)
-   - Component configuration endpoints (5h)
-   - Page publishing workflow (3h)
-
-6. **Multi-language API - BE3 (14h)**
-   - Language schema and storage (4h)
-   - Translation key management (4h)
-   - Language switching endpoints (3h)
-   - Default language fallbacks (3h)
+3. **SEO API**
+   - SEO metadata schema
+   - Store-wide SEO settings
+   - Page-specific SEO endpoints
 
 #### Frontend Tasks
-1. **Domain Status UI - FE1 (10h)**
-   - Domain status dashboard (4h)
-   - Connection status indicators (3h)
-   - Domain configuration form (3h)
+1.  **Store Setup**
+   - Store Registration UI
+   - Logo/favicon storage configuration UI
 
-2. **Logo & Favicon Upload - FE2 (8h)**
-   - Drag-drop upload interface (3h)
-   - Image preview and cropping (3h)
-   - Settings persistence (2h)
+2. **Theme Management(8h)**
+   - Custom theme settings
+   - Theme asset management
 
-3. **Theme Selector UI - FE1 (12h)**
-   - Theme gallery with previews (5h)
-   - Theme application interface (3h)
-   - Theme settings panel (4h)
+3. **Theme Selector UI**
+   - Theme gallery with previews
+   - Theme application interface
+   - Theme settings panel
 
-4. **SEO Form UI - FE2 (10h)**
-   - SEO metadata form (3h)
-   - Preview snippet generator (3h)
-   - Bulk SEO management interface (4h)
+4. **SEO Form UI**
+   - SEO metadata form
+   - Preview snippet generator
+   - Bulk SEO management interface
 
-5. **Page Builder Interface - FE1 (24h)**
-   - Drag-drop page builder (8h)
-   - Component configuration panels (6h)
-   - Layout grid system (6h)
-   - Mobile preview mode (4h)
-
-6. **Appearance Customizer - FE2 (16h)**
-   - Color scheme picker (4h)
-   - Typography settings (4h)
-   - Layout spacing controls (4h)
-   - Live preview system (4h)
-
-7. **Add New Page UI - FE1 (8h)**
-   - Page creation form (3h)
-   - Template selection (2h)
-   - Page settings panel (3h)
-
-8. **Popup Creator UI - FE2 (12h)**
-   - Popup design interface (5h)
-   - Trigger condition settings (3h)
-   - Timing and animation controls (4h)
-
-9. **Booking Calendar UI - FE1 (16h)**
-   - Calendar view component (6h)
-   - Time slot selection (4h)
-   - Availability configuration (6h)
-
-10. **Multi-language Support UI - FE2 (14h)**
-    - Language selector component (3h)
-    - Translation management interface (6h)
-    - Language switch preview (5h)
+6. **Appearance Customizer**
+   - Color scheme picker
+   - Typography settings
+   - Layout spacing controls
+   - Live preview system
 
 ### Product Management
 
 #### Backend Tasks
-1. **Product CRUD API - BE1 (20h)**
-   - Product schema and relationships (5h)
-   - CRUD endpoints with validation (8h)
-   - Product search and filtering (5h)
-   - Product status management (2h)
+1. **Attributes API**
+   - schema and storage
+   - CRUD
 
-2. **Category API - BE2 (14h)**
-   - Hierarchical category schema (4h)
-   - Category CRUD operations (6h)
-   - Category relationship management (4h)
+2. **Tag API**
+   - schema and storage
+   - CRUD 
 
-3. **Variant & Attribute API - BE3 (18h)**
-   - Variant schema and relationships (5h)
-   - Attribute management endpoints (5h)
-   - Variant combination generator (5h)
-   - Variant pricing and stock (3h)
+3. **Category API**
+   - Hierarchical category schema
+   - Category CRUD operations
+   - Category relationship management
+4. **Siple Product API**
+   - Product name 
+   - Description 
+   - Featured Image
+   - Thumbnail
+   - Slider
+   - Regular Price
+   - Discout Price
+   - Buy Price
+   - Stock Management
+   - Taxable
+   - Digital(is downloadable) or Service or Physical
+   - Short Description
+   - SKU /  IBN 
+   - Is Affiliate(Linked)
+   - Up Sell
+   - Cross Sell
+   - Shipping info(weight, dimension)
+   - Shipping Class
+   - Stock Status
+   - Sell Limit( Add to cart limit per order)
 
-4. **Modifier API - BE1 (12h)**
-   - Modifier schema and storage (4h)
-   - Modifier CRUD endpoints (5h)
-   - Modifier assignment to products (3h)
+5. **Group Product API**
+   - Select Groducts(Simple Product)
+   - Regular Price
+   - Discount Price
+   - Saved Amount + (%)
+   - Per Product Quantity ( 2T + 1P)
+   - Purchase Limt
+   - Product Order (ASE/DESC)
+   - Description
+   - Title
+   - Featured Image
+   - Slider
+   - Stock Status
+   - Stock Limit
 
-5. **Custom Field API - BE2 (10h)**
-   - Dynamic field schema (4h)
-   - Field type validation (3h)
-   - Field assignment to products (3h)
+6. **Variant Product API**
+   - List Of Attributes( Color, Size, RAM/ROM, BRAND, Origin, Dimension, etc)
+   - Number of Combinations - Simple Product
+   - Variant combination generator
+   - Variant pricing and stock
 
-6. **Promotion API - BE3 (14h)**
-   - Promotion schema and rules (5h)
-   - Time-based promotion logic (4h)
-   - Promotion application endpoints (5h)
+7. **Promotion API**
+   - Promotion schema and rules
+   - Time-based promotion logic
+   - Promotion application endpoints
 
-7. **Product Labels API - BE1 (8h)**
-   - Label schema and storage (2h)
-   - Label assignment endpoints (3h)
-   - Label filtering and querying (3h)
+7. **Shop Page API**
+   - Get All, 
+   - Search
+   - Filter
+   - Sort
 
-8. **Add-ons API - BE2 (10h)**
-   - Add-on schema and relationships (3h)
-   - Add-on assignment to products (4h)
-   - Add-on pricing and availability (3h)
+9. **Automated RBA Tagging**
+   - Sales tracking aggregation
+   - Best seller, Popuylar, etc calculation logic
+   - Best seller, Popuylar, etc endpoints
 
-9. **Best Seller API - BE3 (10h)**
-   - Sales tracking aggregation (4h)
-   - Best seller calculation logic (3h)
-   - Best seller tagging endpoints (3h)
-
-10. **Import/Export API - BE1 (18h)**
-    - CSV schema mapping (5h)
-    - Import validation and processing (6h)
-    - Error handling and reporting (4h)
-    - Export generation (3h)
-
-11. **Media Library API - BE2 (16h)**
-    - Media storage configuration (4h)
-    - Upload endpoints with validation (5h)
-    - Media organization and folders (4h)
-    - Image optimization and sizing (3h)
+10. **Import/Export API**
+    - CSV schema mapping
+    - Import validation and processing
+    - Error handling and reporting
+    - Export generation
 
 #### Frontend Tasks
-1. **Product Management UI - FE1 (22h)**
-   - Product listing interface (6h)
-   - Filtering and search components (5h)
-   - Product form with sections (8h)
-   - Batch operations UI (3h)
+1. **Attributes Management UI**
+   - Attribute creation form
+   - Attribute editing interface
+   - Attribute list view with search
 
-2. **Category Tree UI - FE2 (16h)**
-   - Hierarchical tree component (6h)
-   - Drag-drop category ordering (5h)
-   - Category creation/editing forms (5h)
+2. **Tag Management UI**
+   - Tag creation interface
+   - Tag assignment to products
+   - Tag filtering and search
 
-3. **Variant UI - FE1 (18h)**
-   - Attribute management interface (5h)
-   - Variant combination matrix (6h)
-   - Bulk variant editor (4h)
-   - Variant preview generator (3h)
+3. **Category Management UI**
+   - Category tree visualization
+   - Drag-drop organization
+   - Category creation/editing forms
 
-4. **Modifier UI - FE2 (12h)**
-   - Modifier creation form (4h)
-   - Modifier assignment interface (4h)
-   - Modifier preview in product (4h)
+4. **Simple Product CRUD UI**
+   - Product information form
+   - Media upload and management
+   - Pricing and inventory interface
+   - Product type selector
+   - Cross-sell and up-sell management
+   - Shipping configuration
 
-5. **Custom Field UI - FE1 (14h)**
-   - Field type selector (3h)
-   - Field configuration panel (5h)
-   - Field assignment interface (3h)
-   - Custom field preview (3h)
+5. **Group Product CRUD UI**
+   - Product grouping interface
+   - Group pricing calculator
+   - Product selection and ordering
+   - Group inventory management
 
-6. **Offer/Promo UI - FE2 (14h)**
-   - Promotion creation form (5h)
-   - Date/time selector (3h)
-   - Promotion rules builder (6h)
+6. **Variant Product CRUD UI**
+   - Attribute selection interface
+   - Variant combination generator
+   - Bulk variant editor
+   - Variant preview
 
-7. **Labels Selector - FE1 (8h)**
-   - Label management interface (3h)
-   - Label assignment to products (3h)
-   - Label preview and filtering (2h)
+7. **Promotion Management UI**
+   - Promotion creation form
+   - Schedule and timing configuration
+   - Product selection for promotions
+   - Discount calculation preview
 
-8. **Add-ons Picker - FE2 (10h)**
-   - Add-on creation interface (4h)
-   - Add-on assignment panel (3h)
-   - Add-on preview in product (3h)
+8. **Shop Page Configuration UI**
+   - Layout customization
+   - Filter and sort options
+   - Product display settings
+   - Pagination controls
 
-9. **Best Seller Tag - FE1 (6h)**
-   - Best seller badge component (2h)
-   - Best seller filter interface (2h)
-   - Best seller reporting view (2h)
+9. **Automated Tagging UI**
+   - Tag configuration panel
+   - Tagging rules editor
+   - Tag preview on products
+   - Tag performance metrics
 
-10. **CSV Import/Export UI - FE2 (16h)**
-    - File upload interface (4h)
-    - Column mapping tool (5h)
-    - Error display and resolution (4h)
-    - Export configuration panel (3h)
-
-11. **Media Manager - FE1 (18h)**
-    - Gallery grid view (5h)
-    - Upload and drag-drop area (4h)
-    - Image editing and cropping (5h)
-    - Folder organization system (4h)
+10. **Import/Export Interface**
+    - File upload component
+    - Column mapping tool
+    - Validation results display
+    - Error resolution interface
+    - Export configuration options
 
 ### Cart & Checkout
 
