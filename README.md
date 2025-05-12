@@ -102,7 +102,7 @@ A comprehensive SaaS-based e-commerce platform with multi-tenant capabilities, a
    - Success/failure states
    - Resend verification option
 
-5. **OTP UI - FE1**
+5. **OTP UI - AKR**
    - OTP input interface
    - Countdown timer and resend option
    - Success/failure states
@@ -138,7 +138,7 @@ A comprehensive SaaS-based e-commerce platform with multi-tenant capabilities, a
    - Store Registration UI
    - Logo/favicon storage configuration UI
 
-2. **Theme Management(8h)**
+2. **Theme Management**
    - Custom theme settings
    - Theme asset management
 
@@ -173,7 +173,7 @@ A comprehensive SaaS-based e-commerce platform with multi-tenant capabilities, a
    - Hierarchical category schema
    - Category CRUD operations
    - Category relationship management
-4. **Siple Product API**
+4. **Simple Product API**
    - Product name 
    - Description 
    - Featured Image
@@ -302,459 +302,459 @@ A comprehensive SaaS-based e-commerce platform with multi-tenant capabilities, a
 ### Cart & Checkout
 
 #### Backend Tasks
-1. **Cart API - BE1 (16h)**
-   - Cart schema and storage (4h)
-   - Cart CRUD operations (5h)
-   - Cart session management (4h)
-   - Cart merging logic (3h)
+1. **Cart API - RH**
+   - Cart schema and storage
+   - Cart CRUD operations
+   - Cart session management
+   - Cart merging logic
 
-2. **Checkout API - BE2 (20h)**
-   - Checkout process flow (6h)
-   - Order creation from cart (5h)
-   - Inventory validation (4h)
-   - Guest checkout handling (5h)
+2. **Checkout API - MHR**
+   - Checkout process flow
+   - Order creation from cart
+   - Inventory validation
+   - Guest checkout handling
 
-3. **Tax API - BE3 (14h)**
-   - Tax rule schema (4h)
-   - Location-based tax calculation (5h)
-   - Tax category management (3h)
-   - Tax reporting endpoints (2h)
+3. **Tax API - RH**
+   - Tax rule schema
+   - Location-based tax calculation
+   - Tax category management
+   - Tax reporting endpoints
 
-4. **Shipping API - BE1 (18h)**
-   - Shipping zone schema (4h)
-   - Shipping method configuration (5h)
-   - Shipping cost calculation (5h)
-   - External shipping API integration (4h)
+4. **Shipping API - RH**
+   - Shipping zone schema
+   - Shipping method configuration
+   - Shipping cost calculation
+   - External shipping API integration
 
-5. **Order Status API - BE2 (12h)**
-   - Order status schema and flow (4h)
-   - Status transition rules (4h)
-   - Status history tracking (4h)
+5. **Order Status API - MHR**
+   - Order status schema and flow
+   - Status transition rules
+   - Status history tracking
 
-6. **Booking API - BE3 (16h)**
-   - Booking schema and storage (5h)
-   - Availability checking logic (5h)
-   - Booking confirmation flow (4h)
-   - Booking management endpoints (2h)
+6. **Booking API - AR**
+   - Booking schema and storage
+   - Availability checking logi
+   - Booking confirmation flow
+   - Booking management endpoints
 
-7. **Notification API - BE1 (14h)**
-   - Notification template schema (4h)
-   - Email integration (4h)
-   - SMS integration (4h)
-   - Notification queue and tracking (2h)
+7. **Notification API - RH**
+   - Notification template schema
+   - Email integration
+   - SMS integration
+   - Notification queue and tracking
 
-8. **Fulfillment API - BE2 (12h)**
-   - Fulfillment method schema (3h)
-   - Fulfillment process endpoints (5h)
-   - Fulfillment status tracking (4h)
+8. **Fulfillment API - AR**
+   - Fulfillment method schema
+   - Fulfillment process endpoints
+   - Fulfillment status tracking
 
-9. **Order API - BE3 (20h)**
-   - Order schema and relationships (6h)
-   - Order processing workflow (7h)
-   - Order validation rules (4h)
-   - Order history and tracking (3h)
+9. **Order API - MHR**
+   - Order schema and relationships
+   - Order processing workflow
+   - Order validation rules
+   - Order history and tracking
 
 #### Frontend Tasks
-1. **Cart UI - FE1 (16h)**
-   - Cart sidebar component (5h)
-   - Cart item management (4h)
-   - Quantity adjusters (3h)
-   - Cart persistence logic (4h)
+1. **Cart UI - MD**
+   - Cart sidebar component
+   - Cart item management
+   - Quantity adjusters
+   - Cart persistence logic
 
-2. **Checkout UI - FE2 (20h)**
-   - Multi-step checkout flow (8h)
-   - Form validation and error handling (5h)
-   - Order summary component (4h)
-   - Success/failure states (3h)
+2. **Checkout UI - MD**
+   - Multi-step checkout flow
+   - Form validation and error handling
+   - Order summary component
+   - Success/failure states
 
-3. **Tax Display - FE1 (8h)**
-   - Tax calculation display (3h)
-   - Region selector component (3h)
-   - Tax breakdown details (2h)
+3. **Tax Display - AKR**
+   - Tax calculation display
+   - Region selector component
+   - Tax breakdown details
 
-4. **Shipping Options UI - FE2 (14h)**
-   - Shipping method selector (5h)
-   - Shipping cost calculator (4h)
-   - Address form with validation (5h)
+4. **Shipping Options UI - AKR**
+   - Shipping method selector
+   - Shipping cost calculator 
+   - Address form with validation
 
-5. **Order Status Timeline - FE1 (12h)**
-   - Timeline visualization component (5h)
-   - Status icon and descriptions (4h)
-   - Status update notifications (3h)
+5. **Order Status Timeline - MD**
+   - Timeline visualization component
+   - Status icon and descriptions
+   - Status update notifications
 
-6. **Booking Product UI - FE2 (16h)**
-   - Date/time picker component (6h)
-   - Availability indicator (4h)
-   - Booking confirmation flow (6h)
+6. **Booking Product UI - AKR**
+   - Date/time picker component
+   - Availability indicator
+   - Booking confirmation flow
 
-7. **Notification Trigger UI - FE1 (10h)**
-   - Notification preview component (4h)
-   - Notification settings panel (3h)
-   - Notification template selector (3h)
+7. **Notification Trigger UI - MD**
+   - Notification preview component
+   - Notification settings panel
+   - Notification template selector
 
-8. **Fulfillment Type UI - FE2 (8h)**
-   - Fulfillment method selector (3h)
-   - Pickup location map (3h)
-   - Delivery options panel (2h)
+8. **Fulfillment Type UI - AKR**
+   - Fulfillment method selector
+   - Pickup location map
+   - Delivery options panel
 
-9. **Place Order Button + Flow - FE1 (10h)**
-   - Order confirmation modal (4h)
-   - Payment method integration (3h)
-   - Order tracking redirection (3h)
+9. **Place Order Button + Flow - MD**
+   - Order confirmation modal
+   - Payment method integration
+   - Order tracking redirection
 
 ### Payment & Finance
 
 #### Backend Tasks
-1. **Payment Gateway API - BE1 (24h)**
-   - Multi-gateway integration schema (6h)
-   - Stripe integration (6h)
-   - PayPal integration (6h)
-   - Local payment methods (6h)
+1. **Payment Gateway API - AR**
+   - Multi-gateway integration schema
+   - Stripe integration
+   - PayPal integration
+   - Local payment methods
 
-2. **Secure Card Storage API - BE2 (16h)**
-   - Token-based card storage (6h)
-   - Secure vault integration (5h)
-   - PCI compliance measures (5h)
+2. **Secure Card Storage API - AR**
+   - Token-based card storage
+   - Secure vault integration
+   - PCI compliance measures
 
-3. **Refund API - BE3 (14h)**
-   - Refund process workflow (5h)
-   - Partial refund calculation (4h)
-   - Multi-gateway refund handling (5h)
+3. **Refund API - MHR**
+   - Refund process workflow
+   - Partial refund calculation
+   - Multi-gateway refund handling
 
-4. **Dispute API - BE1 (12h)**
-   - Dispute schema and storage (4h)
-   - Dispute webhook handlers (5h)
-   - Dispute resolution workflow (3h)
+4. **Dispute API - MHR**
+   - Dispute schema and storage
+   - Dispute webhook handlers
+   - Dispute resolution workflow
 
-5. **Commission API - BE2 (14h)**
-   - Commission rule schema (4h)
-   - Commission calculation logic (5h)
-   - Commission reporting endpoints (5h)
+5. **Commission API - RH**
+   - Commission rule schema
+   - Commission calculation logic
+   - Commission reporting endpoints
 
-6. **Payout API - BE3 (18h)**
-   - Payout scheduling logic (6h)
-   - Payment processor integration (7h)
-   - Payout confirmation and logging (5h)
+6. **Payout API - AR**
+   - Payout scheduling logic
+   - Payment processor integration
+   - Payout confirmation and logging
 
 #### Frontend Tasks
-1. **Gateway Selection UI - FE1 (14h)**
-   - Payment method selector (5h)
-   - Gateway form components (5h)
-   - Payment confirmation UI (4h)
+1. **Gateway Selection UI - MD**
+   - Payment method selector
+   - Gateway form components
+   - Payment confirmation UI
 
-2. **Saved Card Management UI - FE2 (12h)**
-   - Saved cards list component (4h)
-   - Card add/edit forms (4h)
-   - Card deletion confirmation (4h)
+2. **Saved Card Management UI - AKR**
+   - Saved cards list component
+   - Card add/edit forms
+   - Card deletion confirmation
 
-3. **Refund Request UI - FE1 (10h)**
-   - Refund request form (4h)
-   - Eligibility checking UI (3h)
-   - Refund status tracking (3h)
+3. **Refund Request UI - AKR**
+   - Refund request form
+   - Eligibility checking UI
+   - Refund status tracking
 
-4. **Dispute Display UI - FE2 (8h)**
-   - Dispute details panel (3h)
-   - Evidence upload interface (3h)
-   - Dispute status timeline (2h)
+4. **Dispute Display UI - MD**
+   - Dispute details panel
+   - Evidence upload interface
+   - Dispute status timeline
 
-5. **Vendor Payment Dashboard - FE1 (16h)**
-   - Earnings overview component (5h)
-   - Commission breakdown charts (5h)
-   - Payout request interface (6h)
+5. **Vendor Payment Dashboard -MD**
+   - Earnings overview component
+   - Commission breakdown charts
+   - Payout request interface
 
-6. **Admin Commission UI - FE2 (12h)**
-   - Commission rate configuration (5h)
-   - Vendor-specific settings (4h)
-   - Commission simulator (3h)
+6. **Admin Commission UI - MD**
+   - Commission rate configuration
+   - Vendor-specific settings
+   - Commission simulator
 
-7. **Payout History UI - FE1 (10h)**
-   - Payout history table (4h)
-   - Filtering and search (3h)
-   - Payout details modal (3h)
+7. **Payout History UI - AKR**
+   - Payout history table
+   - Filtering and search
+   - Payout details modal
 
 ### Analytics & Dashboard
 
 #### Backend Tasks
-1. **Analytics API - BE1 (20h)**
-   - Data aggregation logic (7h)
-   - KPI calculation endpoints (7h)
-   - Time-based reporting (6h)
+1. **Analytics API - RH**
+   - Data aggregation logic
+   - KPI calculation endpoints
+   - Time-based reporting
 
-2. **Order Overview API - BE2 (14h)**
-   - Order listing endpoints with filters (5h)
-   - Order statistics aggregation (5h)
-   - Order search functionality (4h)
+2. **Order Overview API - MHR**
+   - Order listing endpoints with filters
+   - Order statistics aggregation
+   - Order search functionality
 
-3. **Abandoned Cart API - BE3 (12h)**
-   - Abandoned cart detection (4h)
-   - Recovery workflow endpoints (5h)
-   - Abandoned cart analytics (3h)
+3. **Abandoned Cart API - AR**
+   - Abandoned cart detection
+   - Recovery workflow endpoints
+   - Abandoned cart analytics
 
-4. **Product Analytics API - BE1 (16h)**
-   - Product performance metrics (6h)
-   - Category performance analysis (5h)
-   - Trend detection algorithms (5h)
+4. **Product Analytics API - RH**
+   - Product performance metrics
+   - Category performance analysis
+   - Trend detection algorithms
 
-5. **Audit Log API - BE2 (10h)**
-   - Activity logging system (4h)
-   - Log query and filtering endpoints (3h)
-   - Log retention policies (3h)
+5. **Audit Log API - MHR**
+   - Activity logging system
+   - Log query and filtering endpoints
+   - Log retention policies
 
-6. **Multi-Store API - BE3 (14h)**
-   - Multi-store data segregation (5h)
-   - Cross-store analytics (5h)
-   - Store switching endpoints (4h)
+6. **Multi-Store API - AR**
+   - Multi-store data segregation
+   - Cross-store analytics
+   - Store switching endpoints
 
 #### Frontend Tasks
-1. **Dashboard UI - FE1 (20h)**
-   - Dashboard layout and grid (6h)
-   - KPI card components (5h)
-   - Chart and graph components (6h)
-   - Date range selector (3h)
+1. **Dashboard UI - MD**
+   - Dashboard layout and grid
+   - KPI card components
+   - Chart and graph components
+   - Date range selector
 
-2. **Order Overview Table - FE2 (14h)**
-   - Data table with sorting (5h)
-   - Filter and search controls (4h)
-   - Order detail expansion (5h)
+2. **Order Overview Table - AKR**
+   - Data table with sorting
+   - Filter and search controls
+   - Order detail expansion
 
-3. **Abandoned Cart Display - FE1 (12h)**
-   - Abandoned cart list view (4h)
-   - Recovery action buttons (4h)
-   - Abandonment statistics (4h)
+3. **Abandoned Cart Display - MD**
+   - Abandoned cart list view
+   - Recovery action buttons
+   - Abandonment statistics
 
-4. **Product Analytics UI - FE2 (16h)**
-   - Product performance charts (6h)
-   - Comparison tools (5h)
-   - Filtering and segmentation controls (5h)
+4. **Product Analytics UI - AKR**
+   - Product performance charts
+   - Comparison tools
+   - Filtering and segmentation controls
 
-5. **Audit Trail Viewer - FE1 (10h)**
-   - Activity log table (4h)
-   - User activity filtering (3h)
-   - Timeline visualization (3h)
+5. **Audit Trail Viewer - MD**
+   - Activity log table
+   - User activity filtering
+   - Timeline visualization
 
-6. **Multi-Store Switcher UI - FE2 (8h)**
-   - Store selector component (3h)
-   - Store comparison view (3h)
-   - Cross-store dashboard (2h)
+6. **Multi-Store Switcher UI - AKR**
+   - Store selector component
+   - Store comparison view
+   - Cross-store dashboard
 
 ### Point of Sale (POS) System
 
 #### Backend Tasks
-1. **Real-time Inventory API - BE1 (18h)**
-   - Inventory sync mechanism (6h)
-   - Real-time stock updates (5h)
-   - Inventory reservation system (4h)
-   - Inventory webhook endpoints (3h)
+1. **Real-time Inventory API - RH**
+   - Inventory sync mechanism
+   - Real-time stock updates
+   - Inventory reservation system
+   - Inventory webhook endpoints
 
-2. **POS Transaction API - BE2 (22h)**
-   - Transaction schema and storage (5h)
-   - Payment processing integration (6h)
-   - Transaction validation workflows (5h)
-   - Cash/card/digital payment handlers (6h)
+2. **POS Transaction API - MHR**
+   - Transaction schema and storage
+   - Payment processing integration
+   - Transaction validation workflows
+   - Cash/card/digital payment handlers
 
-3. **Staff Authentication API - BE3 (14h)**
-   - Staff account schema and roles (4h)
-   - Device-based authentication (4h)
-   - Permissions for POS operations (3h)
-   - Session management for POS devices (3h)
+3. **Staff Authentication API - RH**
+   - Staff account schema and roles
+   - Device-based authentication
+   - Permissions for POS operations
+   - Session management for POS devices
 
-4. **Receipt Generation API - BE1 (16h)**
-   - Receipt template system (5h)
-   - Dynamic receipt data binding (4h)
-   - Tax calculation for receipts (3h)
-   - Digital receipt delivery (4h)
+4. **Receipt Generation API - MHR**
+   - Receipt template system
+   - Dynamic receipt data binding
+   - Tax calculation for receipts 
+   - Digital receipt delivery
 
-5. **Cash Drawer API - BE2 (12h)**
-   - Cash drawer opening/closing (3h)
-   - Cash reconciliation logic (4h)
-   - End-of-day reporting (5h)
+5. **Cash Drawer API - AR**
+   - Cash drawer opening/closing
+   - Cash reconciliation logic
+   - End-of-day reporting
 
-6. **Barcode/QR Scanning API - BE3 (10h)**
-   - Product lookup by barcode/QR (3h)
-   - Scanner integration endpoints (4h)
-   - Custom barcode generation (3h)
+6. **Barcode/QR Scanning API - MHR**
+   - Product lookup by barcode/QR
+   - Scanner integration endpoints
+   - Custom barcode generation
 
-7. **POS Order Sync API - BE1 (14h)**
-   - Order synchronization with main system (5h)
-   - Offline transaction handling (5h)
-   - Conflict resolution (4h)
+7. **POS Order Sync API - RH**
+   - Order synchronization with main system
+   - Offline transaction handling
+   - Conflict resolution
 
-8. **Customer Lookup API - BE2 (10h)**
-   - Quick customer search (3h)
-   - Customer profile retrieval (4h)
-   - Loyalty integration for POS (3h)
+8. **Customer Lookup API - MHR**
+   - Quick customer search
+   - Customer profile retrieval
+   - Loyalty integration for POS
 
-9. **Discount Application API - BE3 (12h)**
-   - POS-specific discount rules (4h)
-   - Employee discount handling (4h)
-   - Special pricing and promotions (4h)
+9. **Discount Application API - AR**
+   - POS-specific discount rules
+   - Employee discount handling
+   - Special pricing and promotions
 
 #### Frontend Tasks
-1. **POS Interface UI - FE1 (28h)**
-   - Main POS screen layout (6h)
-   - Product grid and categories (6h)
-   - Quick actions toolbar (4h)
-   - Order management panel (6h)
-   - Responsive design for tablet/touchscreen (6h)
+1. **POS Interface UI - MD**
+   - Main POS screen layout
+   - Product grid and categories
+   - Quick actions toolbar
+   - Order management panel
+   - Responsive design for tablet/touchscreen
 
-2. **Payment Processing UI - FE2 (24h)**
-   - Payment method selection (5h)
-   - Amount calculation display (4h)
-   - Change calculation (3h)
-   - Split payment interface (6h)
-   - Payment confirmation screen (6h)
+2. **Payment Processing UI - AKR**
+   - Payment method selection
+   - Amount calculation display
+   - Change calculation
+   - Split payment interface
+   - Payment confirmation screen
 
-3. **Inventory Management UI - FE1 (18h)**
-   - Stock level indicators (4h)
-   - Quick inventory adjustment (5h)
-   - Inventory alerts and notifications (4h)
-   - Product availability display (5h)
+3. **Inventory Management UI - MD**
+   - Stock level indicators
+   - Quick inventory adjustment
+   - Inventory alerts and notifications
+   - Product availability display
 
-4. **Receipt Printing UI - FE2 (14h)**
-   - Receipt preview component (4h)
-   - Print configuration options (3h)
-   - Digital receipt sending (4h)
-   - Receipt template selection (3h)
+4. **Receipt Printing UI - AKR**
+   - Receipt preview component
+   - Print configuration options
+   - Digital receipt sending
+   - Receipt template selection
 
-5. **Staff Assignment UI - FE1 (10h)**
-   - Staff login screen (3h)
-   - Shift management interface (4h)
-   - Access control visualization (3h)
+5. **Staff Assignment UI - MD**
+   - Staff login screen
+   - Shift management interface
+   - Access control visualization
 
-6. **Item Scanning UI - FE2 (12h)**
-   - Camera integration for scanning (5h)
-   - Manual entry fallback (3h)
-   - Scan result handling (4h)
+6. **Item Scanning UI - AKR**
+   - Camera integration for scanning
+   - Manual entry fallback
+   - Scan result handling
 
-7. **Product Search & Quick Add UI - FE1 (14h)**
-   - Search interface with autocomplete (5h)
-   - Quick product creation (4h)
-   - Recent items display (5h)
+7. **Product Search & Quick Add UI - MD**
+   - Search interface with autocomplete
+   - Quick product creation
+   - Recent items display
 
-8. **Cart Management UI - FE2 (16h)**
-   - Line item display and editing (5h)
-   - Quantity adjustment controls (3h)
-   - Item removal and modifications (4h)
-   - Cart summary calculations (4h)
+8. **Cart Management UI - AKR**
+   - Line item display and editing
+   - Quantity adjustment controls
+   - Item removal and modifications
+   - Cart summary calculations
 
-9. **Cash Drawer UI - FE1 (12h)**
-   - Opening/closing cash drawer flow (4h)
-   - Cash counting interface (4h)
-   - Reconciliation workflow (4h)
+9. **Cash Drawer UI - MD**
+   - Opening/closing cash drawer flow
+   - Cash counting interface
+   - Reconciliation workflow
 
-10. **E-invoice Generation UI - FE2 (10h)**
-    - Invoice creation interface (4h)
-    - Customer information collection (3h)
-    - Invoice delivery options (3h)
+10. **E-invoice Generation UI - AKR**
+    - Invoice creation interface
+    - Customer information collection
+    - Invoice delivery options
 
 ### Integration & System Testing
 
 #### Backend Tasks
-1. **API Optimization - BE1 (24h)**
-   - Response time optimization (6h)
-   - Database query optimization (8h)
-   - Caching implementation (6h)
-   - API payload optimization (4h)
+1. **API Optimization - RH**
+   - Response time optimization
+   - Database query optimization
+   - Caching implementation
+   - API payload optimization
 
-2. **System Integration - BE2 (28h)**
-   - End-to-end workflow testing (8h)
-   - Integration point validation (6h)
-   - Cross-module data flow testing (8h)
-   - Third-party integration testing (6h)
+2. **System Integration - MHR**
+   - End-to-end workflow testing
+   - Integration point validation
+   - Cross-module data flow testing
+   - Third-party integration testing
 
-3. **Performance Testing - BE3 (22h)**
-   - Load testing setup (5h)
-   - Stress testing scenarios (6h)
-   - Bottleneck identification (5h)
-   - Performance metrics collection (6h)
+3. **Performance Testing - AR**
+   - Load testing setup
+   - Stress testing scenarios
+   - Bottleneck identification
+   - Performance metrics collection
 
-4. **Security Auditing - BE1 (26h)**
-   - Authentication/authorization testing (7h)
-   - Input validation and XSS prevention (6h)
-   - SQL injection prevention (5h)
-   - API security and rate limiting (8h)
+4. **Security Auditing - RH**
+   - Authentication/authorization testing
+   - Input validation and XSS prevention
+   - SQL injection prevention
+   - API security and rate limiting
 
-5. **Error Handling Improvement - BE2 (18h)**
-   - Standardized error responses (5h)
-   - Logging enhancement (5h)
-   - Recovery procedures (4h)
-   - Client feedback mechanisms (4h)
+5. **Error Handling Improvement - MHR**
+   - Standardized error responses
+   - Logging enhancement
+   - Recovery procedures
+   - Client feedback mechanisms
 
-6. **Deployment Pipeline Setup - BE3 (20h)**
-   - CI/CD pipeline configuration (7h)
-   - Environment configuration (5h)
-   - Automated testing integration (5h)
-   - Rollback procedures (3h)
+6. **Deployment Pipeline Setup - AR**
+   - CI/CD pipeline configuration
+   - Environment configuration
+   - Automated testing integration
+   - Rollback procedures
 
-7. **Documentation - BE1 (16h)**
-   - API documentation updates (6h)
-   - Developer guides creation (5h)
-   - System architecture documentation (5h)
+7. **Documentation - RH**
+   - API documentation updates
+   - Developer guides creation
+   - System architecture documentation
 
-8. **Multi-tenant Isolation Testing - BE2 (14h)**
-   - Data isolation validation (5h)
-   - Cross-tenant security testing (5h)
-   - Tenant migration testing (4h)
+8. **Multi-tenant Isolation Testing - MHR**
+   - Data isolation validation
+   - Cross-tenant security testing
+   - Tenant migration testing
 
-9. **Backup and Recovery - BE3 (12h)**
-   - Backup procedures testing (4h)
-   - Data recovery scenarios (5h)
-   - Disaster recovery planning (3h)
+9. **Backup and Recovery - AR**
+   - Backup procedures testing
+   - Data recovery scenarios
+   - Disaster recovery planning
 
 #### Frontend Tasks
-1. **UI/UX Polishing - FE1 (30h)**
-   - Design consistency review (6h)
-   - Animation and transition refinement (6h)
-   - Accessibility improvements (7h)
-   - Visual hierarchy optimization (6h)
-   - Micro-interactions implementation (5h)
+1. **UI/UX Polishing - MD**
+   - Design consistency review
+   - Animation and transition refinement
+   - Accessibility improvements
+   - Visual hierarchy optimization
+   - Micro-interactions implementation
 
-2. **Responsive Design Testing - FE2 (24h)**
-   - Mobile device testing (7h)
-   - Tablet layout verification (6h)
-   - Desktop experience optimization (5h)
-   - Touch interface improvements (6h)
+2. **Responsive Design Testing - AKR**
+   - Mobile device testing
+   - Tablet layout verification
+   - Desktop experience optimization
+   - Touch interface improvements
 
-3. **Cross-browser Compatibility - FE1 (22h)**
-   - Chrome/Firefox/Safari testing (7h)
-   - IE/Edge compatibility (6h)
-   - Browser-specific fixes (9h)
+3. **Cross-browser Compatibility - MD**
+   - Chrome/Firefox/Safari testing
+   - IE/Edge compatibility
+   - Browser-specific fixes
 
-4. **Performance Optimization - FE2 (26h)**
-   - Asset loading optimization (7h)
-   - Code splitting implementation (6h)
-   - Bundle size reduction (5h)
-   - Rendering performance tuning (8h)
+4. **Performance Optimization - AKR**
+   - Asset loading optimization
+   - Code splitting implementation
+   - Bundle size reduction
+   - Rendering performance tuning
 
-5. **End-to-end Testing - FE1 (20h)**
-   - User flow test scripts (7h)
-   - Critical path testing (7h)
-   - Edge case scenario testing (6h)
+5. **End-to-end Testing - MD**
+   - User flow test scripts
+   - Critical path testing
+   - Edge case scenario testing
 
-6. **User Acceptance Testing Support - FE2 (18h)**
-   - Test scenario preparation (6h)
-   - UAT environment setup (5h)
-   - Feedback collection tools (7h)
+6. **User Acceptance Testing Support - AKR**
+   - Test scenario preparation
+   - UAT environment setup
+   - Feedback collection tools
 
-7. **Internationalization Testing - FE1 (16h)**
-   - RTL language support (6h)
-   - Translation completeness check (5h)
-   - Date/time/currency format testing (5h)
+7. **Internationalization Testing - MD**
+   - RTL language support
+   - Translation completeness check
+   - Date/time/currency format testing
 
-8. **Comprehensive Documentation - FE2 (14h)**
-   - Component library documentation (5h)
-   - Style guide maintenance (4h)
-   - Developer onboarding docs (5h)
+8. **Comprehensive Documentation - AKR**
+   - Component library documentation
+   - Style guide maintenance
+   - Developer onboarding docs
 
-9. **Cross-device Testing - FE1 (16h)**
-   - iOS/Android testing (6h)
-   - Touchscreen optimization (5h)
-   - Input method compatibility (5h)
+9. **Cross-device Testing - MD**
+   - iOS/Android testing
+   - Touchscreen optimization
+   - Input method compatibility
 
-10. **Final User Experience Review - FE2 (20h)**
-    - Usability testing coordination (7h)
-    - User flow optimization (7h)
-    - Feedback implementation (6h)
+10. **Final User Experience Review - AKR**
+    - Usability testing coordination
+    - User flow optimization
+    - Feedback implementation
 
 ## Project Statistics
 - **Total Duration**: 16 weeks
